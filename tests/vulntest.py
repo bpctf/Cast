@@ -11,20 +11,20 @@ import pathlib
 from pathlib import Path
 
 if __name__ == '__main__':
-    p = subprocess.Popen("Calculator")#, shell=True)
-    pp = Popen("Calc", shell=True, stdout="lol")
+    p = subprocess.Popen("Calculator")
+    pp = Popen("Calculator", shell=True)
     
-    pickle.loads("idk")
-    loads("idk")
+    pickle.loads("Somefile")
+    loads("Somefile")
     
-    os.path.join("/lol", "/error")
+    os.path.join("Desktop", "/root")
     
-    urllib.parse.urljoin("https://lol.com", "https://lolevil.com")
-    urljoin("https://lol.com", "https://lolevil.com")
+    urllib.parse.urljoin("https://good.com", "https://evil.com")
+    urljoin("https://good.com", "https://evil.com")
     
-    yaml.load("Who cares")
-    load("who cares")
+    yaml.load("Somefile")
+    load("Somefile")
     
-    pathlib.Path.joinpath("/root")
-    Path.joinpath("/root")
+    pathlib.Path.joinpath("Desktop", "/root")
+    Path.joinpath("Desktop", "/root")
 
